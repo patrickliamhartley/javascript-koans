@@ -44,8 +44,8 @@ describe("About Objects", function() {
       }
     };
    
-    expect(currentYear).toBe(FILL_ME_IN);
-    expect(meglomaniac.calculateAge()).toBe(FILL_ME_IN);
+    expect(currentYear).toBe(2016);
+    expect(meglomaniac.calculateAge()).toBe(46);
   });
 
   describe("'in' keyword", function() {
@@ -61,13 +61,13 @@ describe("About Objects", function() {
     it("should have the bomb", function() {
       var hasBomb = "theBomb" in meglomaniac;
      
-      expect(hasBomb).toBe(FILL_ME_IN);
+      expect(hasBomb).toBe(true);
     });
 
     it("should not have the detonator however", function() {
       var hasDetonator = "theDetonator" in meglomaniac;
      
-      expect(hasDetonator).toBe(FILL_ME_IN);
+      expect(hasDetonator).toBe(false);
     });    
   });
 
